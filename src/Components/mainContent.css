@@ -1,0 +1,25 @@
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: rgb(134, 241, 241);
+}
+
+.content-list{
+    margin-top: 5%;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: rgb(24, 28, 32);
+
+    font-size: large;
+
+    box-shadow: 0px 19px 30px -1px rgba(44,121,211,0.3);
+    -webkit-box-shadow: 0px 19px 30px -1px rgba(44,121,211,0.6);
+    -moz-box-shadow: 0px 19px 30px -1px rgba(44,121,211,0.6);
+}
+
+.content-list > ul > li{
+    padding: 15px;
+}

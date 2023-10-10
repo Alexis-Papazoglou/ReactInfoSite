@@ -26,3 +26,55 @@
 .nav > h2 {
     color: white;
 }
+
+
+.toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+.toggler {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.light{
+    background-color: aliceblue !important;
+    color: #111;
+}
+
+
+.light > .title-logo > h1{
+    color: #111;
+}
+
+.light-toggler > .toggler--slider{
+    background-color: aliceblue;
+    color: #111;
+}
+
+.light-toggler > p{
+    color: #111;
+}

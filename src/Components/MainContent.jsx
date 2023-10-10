@@ -1,10 +1,10 @@
 import "./mainContent.css"
 
 
-function MainContent(){
+function MainContent(props){
     return (
         <section className="main-content">
-            <div className="content-list">
+            <div className={props.mode ? "content-list" : "content-list light"}>
                 <h1>Fun facts about React</h1>
                 <ul>
                     <li>Was first released in 2013</li>

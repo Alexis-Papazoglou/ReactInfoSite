@@ -23,3 +23,8 @@
 .content-list > ul > li{
     padding: 15px;
 }
+
+.light{
+    background-color: aliceblue !important;
+    color: #111;
+}
